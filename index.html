@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Laxminarayan Traders</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fefaf6; color: #3d2b1f; }
+    header, footer { background-color: #861f41; color: white; padding: 20px; text-align: center; }
+    nav a { margin: 0 15px; color: white; text-decoration: none; font-weight: bold; }
+    .container { padding: 40px; max-width: 1000px; margin: auto; }
+    h1, h2 { color: #861f41; }
+    .product { border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 8px; background: white; }
+    .product img { max-width: 100%; height: auto; border-radius: 4px; }
+    form { display: flex; flex-direction: column; max-width: 600px; }
+    input, textarea, select, button { margin: 10px 0; padding: 10px; font-size: 1rem; }
+    button { background-color: #861f41; color: white; border: none; cursor: pointer; }
+    button:hover { background-color: #6e1934; }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Laxminarayan Traders Logo" style="height: 80px; vertical-align: middle;">
+    <h1>Laxminarayan Traders</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#products">Products</a>
+      <a href="#order">Order Online</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="container">
+    <h2>Welcome to Laxminarayan Traders</h2>
+    <p>Your trusted partner in wholesale grain trading. Serving local retailers and consumers with quality and integrity.</p>
+  </section>
+
+  <section id="about" class="container">
+    <h2>About Us</h2>
+    <p>Laxminarayan Traders is committed to supplying premium-quality grains at competitive prices. We are a locally rooted business focused on building long-term relationships through reliability and service.</p>
+  </section>
+
+  <section id="products" class="container">
+    <h2>Our Products</h2>
+    <div class="product">
+      <h3>Wheat</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Wheat_close-up.JPG" alt="Wheat">
+      <p>High-quality wheat suitable for flour production and everyday use.</p>
+    </div>
+    <div class="product">
+      <h3>Rice</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Rice_DSC03044.JPG" alt="Rice">
+      <p>Premium rice varieties perfect for all types of meals.</p>
+    </div>
+    <div class="product">
+      <h3>Pulses</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Various_lentils_in_bowls.jpg" alt="Pulses">
+      <p>Assorted pulses including moong, chana, toor, and more.</p>
+    </div>
+  </section>
+
+  <section id="order" class="container">
+    <h2>Place an Order</h2>
+    <form action="#">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="text" name="product" placeholder="Product (e.g., Rice 50kg)" required />
+      <input type="number" name="quantity" placeholder="Quantity" required />
+      <textarea name="address" placeholder="Delivery Address" required></textarea>
+      <button type="submit">Submit Order</button>
+    </form>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Us</h2>
+    <p><strong>Address:</strong> 123 Market Road, Your City, State</p>
+    <p><strong>Phone:</strong> +91-9876543210</p>
+    <p><strong>Email:</strong> laxminarayantraders68@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Laxminarayan Traders. All rights reserved.</p>
+  </footer>
+</body>
+</html>
